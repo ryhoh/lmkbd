@@ -1,1 +1,1 @@
-OLED_DRIVER_ENABLE  = yes
+SRC += luminous_control.c
