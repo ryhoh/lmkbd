@@ -27,9 +27,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /********************************************************************************************************************************/
 /*  defines                                                                                                                     */
 /********************************************************************************************************************************/
-#define Y_LMCTL_SW_VERSION  "v0.1.0"        /* Software version */
+#define Y_LMCTL_SW_VERSION  "v0.1.1"        /* Software version */
 #define Y_ON  (1)                           /* On   */
 #define Y_OFF (0)                           /* Off  */
+#define Y_BIT0  (0x01U)                     /* Bit 0    */
+#define Y_BIT1  (0x02U)                     /* Bit 1    */
+#define Y_BIT2  (0x04U)                     /* Bit 2    */
+#define Y_BIT3  (0x08U)                     /* Bit 3    */
+#define Y_BIT4  (0x10U)                     /* Bit 4    */
+#define Y_BIT5  (0x20U)                     /* Bit 5    */
+#define Y_BIT6  (0x40U)                     /* Bit 6    */
+#define Y_BIT7  (0x80U)                     /* Bit 7    */
 
 /********************************************************************************************************************************/
 /*  Macros                                                                                                                      */
