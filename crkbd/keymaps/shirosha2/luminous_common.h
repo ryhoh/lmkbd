@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /********************************************************************************************************************************/
 /*  defines                                                                                                                     */
 /********************************************************************************************************************************/
-#define Y_LMCTL_SW_VERSION  "v0.1.1"        /* Software version */
+#define Y_LMCTL_SW_VERSION  "v0.2.0"        /* Software version */
 #define Y_ON  (1)                           /* On   */
 #define Y_OFF (0)                           /* Off  */
 #define Y_BIT0  (0x01U)                     /* Bit 0    */
@@ -38,6 +38,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define Y_BIT5  (0x20U)                     /* Bit 5    */
 #define Y_BIT6  (0x40U)                     /* Bit 6    */
 #define Y_BIT7  (0x80U)                     /* Bit 7    */
+
+#define LM_INSP (QK_USER_0)                 /* Luminous control inspection mode toggle key  */
 
 /********************************************************************************************************************************/
 /*  Macros                                                                                                                      */
