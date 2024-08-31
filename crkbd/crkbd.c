@@ -161,3 +161,12 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
     return process_record_user(keycode, record);
 }
 #endif // OLED_ENABLE
+
+// https://zenn.dev/koron/articles/98324ab760e83a
+uint16_t keycode_config(uint16_t keycode) {
+    return keycode;
+}
+
+uint8_t mod_config(uint8_t mod) {
+    return mod;
+}
